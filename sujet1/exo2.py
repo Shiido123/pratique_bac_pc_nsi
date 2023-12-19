@@ -25,4 +25,4 @@ def plus_courte_distance(tab, depart):
 print(plus_courte_distance([(7, 9), (2, 5), (5, 2)], (0, 0)))
 
 assert plus_courte_distance(
-    [(7, 9), (2, 5), (5, 2)], (0, 0)) == (2, 5), "erreur"
+    [(7, 9), (2, 5), (5, 2)], (0, 0)) == (2, 5), "erreur"  # d'ailleurs faut renvoyer un tuple, pas une liste comme dans l'énoncé
