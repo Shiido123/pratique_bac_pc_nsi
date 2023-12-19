@@ -20,10 +20,11 @@ def moyenne(nom):
         for valeurs in notes.values():
             note, coefficient = valeurs
             total_points = total_points + note * coefficient
-            total_coefficients +=coefficient
+            total_coefficients += coefficient
         return round(total_points / total_coefficients, 1)
     else:
         return -1
+
 
 print(moyenne("Dupont"))
 print(moyenne("Durand"))
